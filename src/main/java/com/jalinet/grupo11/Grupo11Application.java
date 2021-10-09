@@ -14,6 +14,7 @@ public class Grupo11Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Grupo11Application.class, args);
+                int i = 1;
 	}
       	@Bean
 	public WebMvcConfigurer corsConfigurer() {
